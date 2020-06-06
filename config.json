@@ -1,0 +1,65 @@
+{
+	"api": {
+		"country": "brazil",
+		"comments": {
+			"order": "time",
+			"moderationStatus": "published",
+			"maxResults": 100,
+			"textFormat": "plainText"
+		},
+		"keys": [
+			"YOUR1STKEYHERE",
+			"YOUR2NDKEYHERE",
+			"YOUR3RDKEYHERE",
+			"YOUR...ETC"
+		],
+		"threads": 10,
+		"timezoneDifference": -3,
+		"videos": {
+			"maxResults": 50,
+			"pageLimit": 0,
+			"dateLimit": 7,
+			"batchLimit": 5
+		}
+	},
+
+
+	"files": {
+		"collectIdFile": ".COLLECT",
+		"csv": {
+			"delimiter": ",",
+			"quoteChar": "\""
+		},
+		"outputDirectory": "out",
+		"listFile": "list.txt",
+		"encoding": "utf8",
+		"filter": [
+			{
+				"attribute": "subscribers",
+				"type": "greater",
+				"value": 10000
+			}
+		]
+
+	},
+
+	"server": {
+		"timezoneDifference": -3
+	},
+
+	"database": {
+		"connection": {
+			"host": "YOURHOSTHERE",
+			"user": "YOURUSERHERE",
+			"password": "YOURPASSHERE",
+			"db": "YOURDBHERE"
+		},
+		"bufferLimit": 1000,
+		"tables": [{
+			"name": "table1",
+			"fields": ["field1","field2","field3"],
+			"primaryKey": "field1"
+		}]
+
+	}
+}

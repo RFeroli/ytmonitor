@@ -25,7 +25,7 @@
 
 
 	"files": {
-		"collectIdFile": ".COLLECT",
+		"collectIdFile": "ID.COLLECT",
 		"csv": {
 			"delimiter": ",",
 			"quoteChar": "\""
